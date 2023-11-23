@@ -25,6 +25,7 @@
     INSERT INTO employee (emp_id, emp_name, emp_city, emp_sal)
     VALUES (101, 'Alice', 'New York', 50000);
 
+
 # load data into cassandra table from local computer
 
     cqlsh:test> copy test.movie 
